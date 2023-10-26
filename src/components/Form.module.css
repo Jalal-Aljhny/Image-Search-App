@@ -1,0 +1,30 @@
+.container {
+  margin: 3rem auto 0;
+  width: 600px;
+  max-width: 90vw;
+}
+.name {
+  text-align: center;
+  color: #7171d6;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+@media (max-width: 767px) {
+  .name {
+    font-size: 2rem;
+  }
+}
+@media (max-width: 500px) {
+  .name {
+    font-size: 1.5rem;
+  }
+}
+.input {
+  border: 1px solid #d0cece;
+  border-radius: 0.5rem;
+  outline: none;
+  padding: 0.75rem 1rem;
+  width: 100%;
+  margin-top: 0.75rem;
+  font-size: 1rem;
+}

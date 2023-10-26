@@ -1,0 +1,28 @@
+.container {
+  max-width: 85vw;
+  padding: 0.75rem;
+  border-radius: 0.75rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 0.75rem;
+  margin: 0.5rem auto;
+}
+.image {
+  border-radius: 0.5rem;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  object-position: center;
+}
+.loading,
+.error,
+.no_image {
+  text-align: center;
+  color: #7171d6;
+  font-size: 0.75rem;
+  text-transform: capitalize;
+}
+.error {
+  color: #e22810;
+  font-size: 0.75rem;
+}
